@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Coding-Quizzer-BackendAsService",
+    "image": "./img/project1.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/css3.png",
+      "https://img.icons8.com/fluency/48/javascript.png",
+      "https://img.icons8.com/fluency/48/server.png"
+    ],
+    "description": "The Coding Quiz Generator is a web application that dynamically generates coding-related quizzes, allowing users to test their knowledge and skills. Used Google Firebase for Backend as a service",
+    "liveDemo": "https://pawansirsat.github.io/Coding-Quizzer-BackendAsService/",
+    "githubLink": "https://github.com/PawanSirsat/Coding-Quizzer-BackendAsService"
+  },
+  {
+    "name": "Social-Media-React-Appwrite",
+    "image": "https://user-images.githubusercontent.com/48860105/284087260-c418f01d-8881-40db-90c6-7513057d4482.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/css3.png",
+      "https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/1A1A1A/external-react-social-media-tanah-basah-glyph-tanah-basah.png",
+      "https://img.icons8.com/fluency/48/server.png"
+    ],
+    "description": "MySocialMediaWebsite is a full-stack social media platform built with modern web technologies. It provides the power of Tailwind CSS for styling, React with TypeScript for a robust front-end, React Query for efficient data fetching, and Appwrite as the backend database solution.",
+    "liveDemo": "https://social-media-react-appwrite.vercel.app/",
+    "githubLink": "https://github.com/PawanSirsat/Social-Media-React-Appwrite"
+  },
+  {
+    "name": "Ecommerce_Website-Angular-Spring",
+    "image": "https://user-images.githubusercontent.com/48860105/244513157-1cfb4ada-1a54-45d3-8c2f-e5d0dc5b59db.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/angularjs.png",
+      "https://img.icons8.com/fluency/48/javascript.png",
+      "https://img.icons8.com/fluency/48/java-coffee-cup-logo--v1.png"
+    ],
+    "description": "Modern E-commerce Platform: Experience seamless online shopping with our e-commerce website developed using the Spring framework for robust back-end functionality and Angular for a dynamic and responsive user interface.",
+    "githubLink": "https://github.com/PawanSirsat/Ecommerce_Website-Angular-Spring"
+  },
+  {
+    "name": "React-Journey",
+    "image": "https://user-images.githubusercontent.com/48860105/282162708-5c71bc49-f720-4cc7-9b0f-327a3ccf6b36.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/css3.png",
+      "https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/1A1A1A/external-react-social-media-tanah-basah-glyph-tanah-basah.png"
+    ],
+    "description": "Embark on your React Journey! Explore hands-on projects, master key concepts, and build a solid foundation in React development with this interactive showcase on GitHub.",
+    "liveDemo": "https://react-journey-liard.vercel.app/",
+    "githubLink": "https://github.com/PawanSirsat/React-Journey"
+  },
+  {
+    "name": "Password-Manager-React",
+    "image": "https://user-images.githubusercontent.com/48860105/285125509-852cf144-c2b9-4d7e-a607-a041596b454c.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/css3.png",
+      "https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/1A1A1A/external-react-social-media-tanah-basah-glyph-tanah-basah.png"
+    ],
+    "description": "The app features an automatic password generator that creates strong and secure passwords for your various online accounts.all your sensitive information is stored locally using browser's local storage, eliminating the need for external servers or cloud storage.",
+    "liveDemo": "https://password-manager-react.vercel.app/",
+    "githubLink": "https://github.com/PawanSirsat/Password-Manager-React"
+  },
+  {
+    "name": "JavaScript Project Collection",
+    "image": "https://user-images.githubusercontent.com/48860105/277800812-500f81f9-d887-4bf8-9852-cdfeb621a836.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/css3.png",
+      "https://img.icons8.com/fluency/48/javascript.png"
+    ],
+    "description": "Explore JavaScript Day by Day: This repository serves as my learning journey through JavaScript. Each day, I tackle different JavaScript projects, documenting my progress and sharing code examples.",
+    "liveDemo": "https://pawansirsat.github.io/JavaScript_Projects/",
+    "githubLink": "https://github.com/PawanSirsat/JavaScript_Projects"
+  },
+  {
+    "name": "ClassRoom Management",
+    "image": "https://user-images.githubusercontent.com/48860105/258714595-511295d9-2d3f-41b4-be20-abc066b35967.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/css3.png",
+      "https://img.icons8.com/fluency/48/javascript.png",
+      "https://img.icons8.com/fluency/48/java-coffee-cup-logo--v1.png"
+    ],
+    "description": "The application has three user roles: admin, teacher, and student. As an admin, I created a feature-rich admin panel with seven modules, allowing for easy management of student and teacher information. CRUD operations",
+    "githubLink": "https://github.com/PawanSirsat/ClassRoom_Management"
+  },
+  {
+    "name": "Generate-RandomUser-API",
+    "image": "https://user-images.githubusercontent.com/48860105/277830647-4a2cb0e6-6024-4544-bce1-22ae0af0a208.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/css3.png",
+      "https://img.icons8.com/fluency/48/javascript",
+      "https://img.icons8.com/fluency/48/api"
+    ],
+    "description": "RandomUserGenerator is a web application that utilizes a random user data API to generate and display detailed user profiles",
+    "liveDemo": "https://pawansirsat.github.io/Generate-RandomUser-API/",
+    "githubLink": "https://github.com/PawanSirsat/Generate-RandomUser-API"
+  },
+  {
+    "name": "Github-Contribution-Graph-API",
+    "image": "https://user-images.githubusercontent.com/48860105/279524045-de85e379-eabe-4757-aae6-8de38f2e687a.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/css3.png",
+      "https://img.icons8.com/fluency/48/javascript",
+      "https://img.icons8.com/fluency/48/api"
+    ],
+    "description": "This web application allows users to search for GitHub users and view comprehensive information about their GitHub profiles. The main feature is a visually appealing contribution calendar that displays the user's daily contribution activity.",
+    "liveDemo": "https://pawansirsat.github.io/Github-Contribution-Graph-API/",
+    "githubLink": "https://github.com/PawanSirsat/Github-Contribution-Graph-API"
+  },
+  {
+    "name": "Project-Portfolio-Website",
+    "image": "./img/portfolio.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/css3.png",
+      "https://img.icons8.com/fluency/48/javascript"
+    ],
+    "description": "This web application allows users to search for GitHub users and view comprehensive information about their GitHub profiles. The main feature is a visually appealing contribution calendar that displays the user's daily contribution activity.",
+    "liveDemo": "https://pawansirsat.github.io/Portfolio-Website/",
+    "githubLink": "https://github.com/PawanSirsat/Portfolio-Website"
+  }
+]

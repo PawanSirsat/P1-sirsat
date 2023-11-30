@@ -1,0 +1,373 @@
+body {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/* Style the "Projects" section */
+.projects {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  text-align: center;
+  padding: 20px;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px; /* Adjust the spacing between projects as needed */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.project {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  padding: 25px;
+  border-radius: 10px; /* Increase border radius for a softer look */
+  flex: 1;
+  max-width: 265px;
+  text-align: left;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.8);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Create a hover effect to lift the card slightly */
+.project:hover {
+  transform: translateY(-5px);
+}
+
+#tech {
+  padding: auto;
+  text-align: center;
+  margin-top: 8px;
+}
+#tech img {
+  width: 55px;
+  height: 55px;
+}
+
+.project-info {
+  flex: 1;
+  text-align: center;
+}
+
+.project-info img {
+  height: 200px;
+  width: 268px;
+}
+
+#bottom {
+  margin-bottom: 5px;
+}
+
+.project-actions {
+  display: inline-flex;
+  /* flex-direction: column;
+  justify-content: space-between; */
+}
+
+.project-actions img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px; /* Add spacing between the icon and the text */
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-top: 0; /* Remove the default margin from the heading */
+}
+
+#zero-bottom {
+  margin-bottom: 0;
+}
+
+.project p {
+  margin: 10px 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+#live {
+  text-decoration: none;
+  background-color: #007bff;
+  color: #fff;
+  /* padding: 10px 41px; */
+  border-radius: 5px;
+  display: inline-flex; /* Display the link as a flex container */
+  align-items: center; /* Center items vertically */
+  text-align: center;
+}
+.project a {
+  text-decoration: none;
+  background-color: #1b1b1b;
+  color: #fff;
+  padding: 12px 8px;
+  border-radius: 5px;
+  display: inline-flex; /* Display the link as a flex container */
+  align-items: center; /* Center items vertically */
+  text-align: center;
+  margin-left: 10px;
+}
+#pname {
+  width: 147px;
+  font-size: 20px;
+  margin-left: 7px;
+}
+/* Style the hero section with a flexbox layout */
+.hero {
+  margin-top: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  /* Set the background color as needed */
+  color: #fff;
+  /* Set the text color as needed */
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  display: grid;
+}
+
+/* Style the image */
+#profile {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+
+/* @keyframes blink {
+  0% {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+  }
+} */
+
+/* Style the hero content */
+/* .hero-content {
+  flex: 1;
+  margin-left: 20px;
+} */
+
+/* Style the name */
+/* .hero h1 {
+  font-size: 2rem;
+  margin: 0;
+} */
+
+/* Style the paragraph */
+/* .hero p {
+  max-width: 500px;
+  font-size: 1.5rem;
+} */
+
+/* .hero .button {
+  background-color: #1b1b1b;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+} */
+/* Style the hero container */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the left section containing the image and name */
+.left-section {
+  padding: 20px;
+}
+
+.right-section p {
+  font-size: 15px;
+}
+
+/* Style the right section containing the paragraph */
+.right-section {
+  flex: 2; /* Take up two-thirds of the available space */
+  padding: 20px;
+}
+
+/* Style the bottom section containing the buttons and social links */
+.bottom-section {
+  text-align: center;
+  margin-top: 15px;
+  flex: 0; /* Take up two-thirds of the available space */
+}
+
+.button2 {
+  color: #fff; /* Set the button text color as needed */
+  font-weight: 500;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #007bff;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links a img {
+  width: 45px;
+  height: 45px;
+  border: none;
+  margin-right: 20px;
+}
+
+/* .button {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+} */
+
+/* Style the "About Me" section */
+.about {
+  background-color: #f0f0f0; /* Set the background color as needed */
+  text-align: center; /* Center align the content */
+}
+
+/* Style the "About Me" content */
+.about-content {
+  max-width: 800px; /* Set the maximum width of the content */
+  margin: 0 auto; /* Center the content horizontally with margins on both sides */
+}
+
+/* Style the "About Me" heading */
+.about h2 {
+  font-size: 2.5rem; /* Increase the font size for the heading */
+  color: #333; /* Set a slightly darker text color */
+}
+
+/* Style the "About Me" paragraph */
+.about p {
+  margin: 12px 0; /* Add spacing between the paragraph and the heading */
+  font-size: 1.2rem; /* Set the font size for the paragraph */
+}
+
+/* Style the "View Resume" button */
+.about .button {
+  background-image: linear-gradient(135deg, #f97794 10%, #623aa2 100%);
+  color: #fff; /* Set the button text color as needed */
+  font-weight: 500;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.3); /* Transparent with alpha value */
+
+  left: 0;
+  width: 100%;
+  z-index: 100; /* Set a high z-index value to keep it on top of other content */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow for a nice effect */
+  backdrop-filter: blur(10px); /* Add blur effect */
+}
+/* Remove list item (li) decorations */
+nav ul,
+.articles ul,
+.projects ul {
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+}
+.project-actions a {
+  font-size: 13px;
+}
+.about {
+  background-color: transparent;
+}
+.about p {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#b1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.center-icon {
+  display: flex;
+  align-items: center;
+}
+
+.center-icon img {
+  width: 40px;
+  /* Adjust the width as needed */
+  height: 40px;
+  /* Adjust the height as needed */
+}
+
+/* Style the navigation links and remove anchor tag decoration */
+nav li,
+.articles li {
+  margin: 0 20px;
+  /* Add spacing between menu items */
+}
+
+nav a,
+.articles a {
+  text-decoration: none;
+  /* Remove anchor tag decoration */
+  color: #201c1c;
+  font-weight: 700;
+  font-family: monospace;
+  /* Set the anchor tag text color to black */
+}
+
+nav li {
+  display: inline-block;
+}
