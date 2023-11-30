@@ -1,6 +1,6 @@
 [
   {
-    "name": "Coding-Quizzer-BackendAsService",
+    "name": "LeetCode Quizz",
     "image": "./project-img/leetcode.png",
     "tech": [
       "https://img.icons8.com/fluency/48/html-5.png",
@@ -13,7 +13,7 @@
     "githubLink": "https://github.com/PawanSirsat/Coding-Quizzer-BackendAsService"
   },
   {
-    "name": "Social-Media-React-Appwrite",
+    "name": "Instagram Clone",
     "image": "./project-img/snap.png",
     "tech": [
       "https://img.icons8.com/fluency/48/html-5.png",
@@ -21,12 +21,12 @@
       "https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/1A1A1A/external-react-social-media-tanah-basah-glyph-tanah-basah.png",
       "https://img.icons8.com/fluency/48/server.png"
     ],
-    "description": "MySocialMediaWebsite is a full-stack social media platform built with modern web technologies. .",
+    "description": "MySocialMediaWebsite is a full-stack social media platform built with modern web technologies.",
     "liveDemo": "https://social-media-react-appwrite.vercel.app/",
     "githubLink": "https://github.com/PawanSirsat/Social-Media-React-Appwrite"
   },
   {
-    "name": "Ecommerce_Website-Angular-Spring",
+    "name": "Flipkart Clone",
     "image": "./project-img/flipkar.png",
     "tech": [
       "https://img.icons8.com/fluency/48/html-5.png",
@@ -34,7 +34,7 @@
       "https://img.icons8.com/fluency/48/javascript.png",
       "https://img.icons8.com/fluency/48/java-coffee-cup-logo--v1.png"
     ],
-    "description": "Modern E-commerce Platform: Experience seamless online shopping with our e-commerce website developed using the Spring framework",
+    "description": "Modern E-commerce Platform: Experience seamless online shopping with Angular and Spring ",
     "githubLink": "https://github.com/PawanSirsat/Ecommerce_Website-Angular-Spring"
   },
   {
@@ -50,19 +50,19 @@
     "githubLink": "https://github.com/PawanSirsat/React-Journey"
   },
   {
-    "name": "Password-Manager-React",
+    "name": "Password Manager",
     "image": "./project-img/password.png",
     "tech": [
       "https://img.icons8.com/fluency/48/html-5.png",
       "https://img.icons8.com/fluency/48/css3.png",
       "https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/1A1A1A/external-react-social-media-tanah-basah-glyph-tanah-basah.png"
     ],
-    "description": "The app features an automatic password generator that creates strong and secure passwords for your various online accounts.",
+    "description": "The app features an automatic password generator that creates strong and save Locally",
     "liveDemo": "https://password-manager-react.vercel.app/",
     "githubLink": "https://github.com/PawanSirsat/Password-Manager-React"
   },
   {
-    "name": "JavaScript Project Collection",
+    "name": "JS Projects",
     "image": "./project-img/java-script.png",
     "tech": [
       "https://img.icons8.com/fluency/48/html-5.png",
@@ -74,7 +74,7 @@
     "githubLink": "https://github.com/PawanSirsat/JavaScript_Projects"
   },
   {
-    "name": "ClassRoom Management",
+    "name": "Byjus Clone",
     "image": "./project-img/byjus.png",
     "tech": [
       "https://img.icons8.com/fluency/48/html-5.png",
@@ -86,7 +86,7 @@
     "githubLink": "https://github.com/PawanSirsat/ClassRoom_Management"
   },
   {
-    "name": "Generate-RandomUser-API",
+    "name": "RandomUser-API",
     "image": "./project-img/api2.jpg",
     "tech": [
       "https://img.icons8.com/fluency/48/html-5.png",
@@ -99,7 +99,7 @@
     "githubLink": "https://github.com/PawanSirsat/Generate-RandomUser-API"
   },
   {
-    "name": "Github-Contribution-Graph-API",
+    "name": "Github Profile",
     "image": "./project-img/github.png",
     "tech": [
       "https://img.icons8.com/fluency/48/html-5.png",
@@ -112,7 +112,7 @@
     "githubLink": "https://github.com/PawanSirsat/Github-Contribution-Graph-API"
   },
   {
-    "name": "Project-Portfolio-Website",
+    "name": "Portfolio",
     "image": "./project-img/portfolio.jpeg",
     "tech": [
       "https://img.icons8.com/fluency/48/html-5.png",
