@@ -27,7 +27,7 @@
   },
   {
     "name": "Flipkart Clone",
-    "image": "./project-img/flipkar.png",
+    "image": "./project-img/flipkart.png",
     "tech": [
       "https://img.icons8.com/fluency/48/html-5.png",
       "https://img.icons8.com/fluency/48/angularjs.png",
@@ -120,7 +120,7 @@
       "https://img.icons8.com/fluency/48/javascript"
     ],
     "description": "This web application allows users to search for GitHub users and view comprehensive information about their GitHub profiles.",
-    "liveDemo": "https://pawansirsat.github.io/Portfolio-Website/",
-    "githubLink": "https://github.com/PawanSirsat/Portfolio-Website"
+    "liveDemo": "https://p1-sirsat.vercel.app/",
+    "githubLink": "https://github.com/PawanSirsat/P1-sirsat"
   }
 ]
