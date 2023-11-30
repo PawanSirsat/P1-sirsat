@@ -1,4 +1,17 @@
 [
+   {
+    "name": "Github Profile",
+    "image": "./project-img/github.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/css3.png",
+      "https://img.icons8.com/fluency/48/javascript",
+      "https://img.icons8.com/fluency/48/api"
+    ],
+    "description": "This web application allows users to search for GitHub users and view comprehensive information about their GitHub profiles.",
+    "liveDemo": "https://pawansirsat.github.io/Github-Contribution-Graph-API/",
+    "githubLink": "https://github.com/PawanSirsat/Github-Contribution-Graph-API"
+  },
   {
     "name": "LeetCode Quizz",
     "image": "./project-img/leetcode.png",
@@ -97,19 +110,6 @@
     "description": "RandomUserGenerator is a web application that utilizes a random user data API to generate and display detailed user profiles",
     "liveDemo": "https://pawansirsat.github.io/Generate-RandomUser-API/",
     "githubLink": "https://github.com/PawanSirsat/Generate-RandomUser-API"
-  },
-  {
-    "name": "Github Profile",
-    "image": "./project-img/github.png",
-    "tech": [
-      "https://img.icons8.com/fluency/48/html-5.png",
-      "https://img.icons8.com/fluency/48/css3.png",
-      "https://img.icons8.com/fluency/48/javascript",
-      "https://img.icons8.com/fluency/48/api"
-    ],
-    "description": "This web application allows users to search for GitHub users and view comprehensive information about their GitHub profiles.",
-    "liveDemo": "https://pawansirsat.github.io/Github-Contribution-Graph-API/",
-    "githubLink": "https://github.com/PawanSirsat/Github-Contribution-Graph-API"
   },
   {
     "name": "Portfolio",
