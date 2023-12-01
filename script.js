@@ -26,7 +26,7 @@ function displayProjects(data) {
             }
             <a href="${
               project.githubLink
-            }" target="_blank"><img width="30" height="30" src="https://img.icons8.com/glyph-neue/64/FFFFFF/github.png" alt="GitHub"> Visit Project</a>
+            }" target="_blank"><img width="30" height="30" src="https://img.icons8.com/glyph-neue/64/FFFFFF/github.png" alt="GitHub">Git Repo</a>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 [
    {
-    "name": "Github Profile",
+    "name": "Github API",
     "image": "./project-img/github.png",
     "tech": [
       "https://img.icons8.com/fluency/48/html-5.png",
@@ -8,7 +8,7 @@
       "https://img.icons8.com/fluency/48/javascript",
       "https://img.icons8.com/fluency/48/api"
     ],
-    "description": "This web application allows users to search for GitHub users and view comprehensive information about their GitHub profiles.",
+    "description": "This web application allows users to search for GitHub users and Git Calender",
     "liveDemo": "https://pawansirsat.github.io/Github-Contribution-Graph-API/",
     "githubLink": "https://github.com/PawanSirsat/Github-Contribution-Graph-API"
   },
@@ -82,7 +82,7 @@
       "https://img.icons8.com/fluency/48/css3.png",
       "https://img.icons8.com/fluency/48/javascript.png"
     ],
-    "description": "Explore JavaScript Day by Day: This repository serves as my learning journey through JavaScript. .",
+    "description": "Explore JavaScript Day by Day: This repository serves as my learning journey through JavaScript And Projects.",
     "liveDemo": "https://pawansirsat.github.io/JavaScript_Projects/",
     "githubLink": "https://github.com/PawanSirsat/JavaScript_Projects"
   },
@@ -95,7 +95,7 @@
       "https://img.icons8.com/fluency/48/javascript.png",
       "https://img.icons8.com/fluency/48/java-coffee-cup-logo--v1.png"
     ],
-    "description": "The application has three user roles: admin, teacher, and student. As an admin, I created a feature-rich admin panel with seven modules.",
+    "description": "The application has three user roles: admin, teacher, and student. allowing for easy management of student and teacher information.",
     "githubLink": "https://github.com/PawanSirsat/ClassRoom_Management"
   },
   {
