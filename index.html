@@ -15,10 +15,9 @@
     <nav>
       <ul>
         <li><a href="#home">Home</a></li>
-        <li><a href="#social">About</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#con" onclick="openForm()">Contact</a></li>
       </ul>
-
       </ul>
     </nav>
     <div class="hero">
@@ -124,12 +123,73 @@
 
     </section>
 
+    <section id="con">
+      <div class="contact-container">
+        <h2>Contact Me</h2>
+        <span class="close" onclick="closeForm()">&times;</span>
+
+        <form id="contactForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Submit</button>
+          <div class="loading" id="loadingIndicator">Loading...</div>
+          <div class="success-message" id="successMessage">Successfully submitted!</div>
+        </form>
+      </div>
+    </section>
 
   </main>
   <footer>
     <p>&copy; 2023 Developer Pawan Sirsat</p>
   </footer>
   <script src="./script.js"></script>
+  <script>
+
+    function openForm() {
+      document.getElementById('con').style.display = 'block';
+      document.getElementById('loadingIndicator').style.display = 'none';
+      document.getElementById('successMessage').style.display = 'none';
+
+    }
+
+    function closeForm() {
+      document.getElementById('con').style.display = 'none';
+    }
+
+    function submitForm() {
+      // Show loading indicator
+      document.getElementById('loadingIndicator').style.display = 'block';
+
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+
+      // Simulate an asynchronous operation (e.g., API call)
+      // In a real scenario, you should replace this with your actual API call
+      // and handle the success and error cases accordingly.
+      // For now, we'll use a simple setTimeout to simulate the delay.
+      setTimeout(() => {
+        // Hide loading indicator
+        document.getElementById('loadingIndicator').style.display = 'none';
+
+        // Show success message
+        document.getElementById('successMessage').style.display = 'block';
+
+        // Close the form after 2 seconds
+        setTimeout(() => {
+          closeForm();
+        }, 2000);
+      }, 2000);
+    }
+
+  </script>
 </body>
 
 </html>
