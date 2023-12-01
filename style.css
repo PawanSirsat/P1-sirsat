@@ -395,3 +395,129 @@ nav a,
 nav li {
   display: inline-block;
 }
+
+.custom-column {
+  font-family:Arial, Helvetica, sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+.custom-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+    .custom-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+.custom-heading {
+  text-align: center;
+    font-size: 1.25rem; /* Equivalent to text-xl in Tailwind */
+    font-weight: 500;   /* Equivalent to font-medium in Tailwind */
+    margin-top: 0.5rem;  /* Equivalent to mt-2 in Tailwind */
+    color: #b3b3b3;      /* Equivalent to text-zinc-200 in Tailwind */
+    margin-bottom: 1.25rem;  /* Equivalent to mb-5 in Tailwind */
+}
+
+.custom-subheading {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+    color: #3490dc;      /* Equivalent to text-primary in Tailwind */
+    font-size: 1.125rem; /* Equivalent to text-lg in Tailwind */
+    letter-spacing: 0.05em; /* Equivalent to tracking-wider in Tailwind */
+}
+
+.custom-card {
+    flex: 1;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #282631;
+    padding: 1rem;
+    border-radius: 0.40rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.custom-tag {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.75rem; /* Equivalent to text-xs in Tailwind */
+    color: white;     /* Equivalent to text-primary in Tailwind */
+    background-color: #14131A; /* Equivalent to bg-body in Tailwind */
+    border-width: 1px;
+    border-color: #14131A ;
+    border-style: solid;
+    border-radius: 0.25rem;
+}
+
+.blue {
+    border-color: #4299e1; /* Equivalent to border-blue-500 in Tailwind */
+}
+
+.emerald {
+    border-color: #38a169; /* Equivalent to border-emerald-500 in Tailwind */
+}
+
+.pink {
+    border-color: #de2688; /* Equivalent to border-emerald-500 in Tailwind */
+}
+
+.red {
+    border-color: #e53e3e; /* Equivalent to border-red-500 in Tailwind */
+}
+
+.yellow {
+    border-color: #f6e05e; /* Equivalent to border-yellow-500 in Tailwind */
+}
+
+
+#prevButton {
+    background-color: #3490dc;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-width: 4px;
+    border-color: #4a90e2;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+#prevButton:hover {
+    background-color: #4a90e2;
+    border-color: #3490dc;
+}
+
+#nextButton {
+    background-color: #3490dc;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-width: 4px;
+    border-color: #4a90e2;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+#nextButton:hover {
+    background-color: #4a90e2;
+    border-color: #3490dc;
+}
+
+.btnclass {
+  padding:20px;
+}
