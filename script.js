@@ -98,12 +98,24 @@ fetchDataAndDisplay2();
 // Example: Add event listeners for next and previous buttons
 document.getElementById('nextButton').addEventListener('click', () => {
   currentPage++;
-  fetchDataAndDisplay();
+  fetchDataAndDisplay1();
 });
 
 document.getElementById('prevButton').addEventListener('click', () => {
   if (currentPage > 1) {
     currentPage--;
-    fetchDataAndDisplay();
+    fetchDataAndDisplay1();
+  }
+});
+
+document.getElementById('nextButton2').addEventListener('click', () => {
+  currentPage++;
+  fetchDataAndDisplay2();
+});
+
+document.getElementById('prevButton2').addEventListener('click', () => {
+  if (currentPage > 1) {
+    currentPage--;
+    fetchDataAndDisplay2();
   }
 });

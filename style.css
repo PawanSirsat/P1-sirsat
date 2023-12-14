@@ -508,7 +508,7 @@ nav li {
 }
 
 
-#prevButton {
+#prevButton, #prevButton2 {
     background-color: #3490dc;
     color: #fff;
     font-weight: bold;
@@ -520,12 +520,12 @@ nav li {
     transition: background-color 0.3s, border-color 0.3s;
 }
 
-#prevButton:hover {
+#prevButton,#prevButton2:hover {
     background-color: #4a90e2;
     border-color: #3490dc;
 }
 
-#nextButton {
+#nextButton, #nextButton2{
     background-color: #3490dc;
     color: #fff;
     font-weight: bold;
@@ -537,7 +537,7 @@ nav li {
     transition: background-color 0.3s, border-color 0.3s;
 }
 
-#nextButton:hover {
+#nextButton,#nextButton2:hover {
     background-color: #4a90e2;
     border-color: #3490dc;
 }
