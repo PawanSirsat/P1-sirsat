@@ -69,11 +69,23 @@ body {
   text-align: center;
 }
 
+.project-info2{
+   flex: 1;
+  text-align: center;
+}
+
 .project-info img {
  border-top-left-radius: 15px; /* Set the border radius for the left top corner */
   border-top-right-radius: 15px; /* Set the border radius for the right top corner */
   height: 200px;
   width: 265px;
+}
+
+.project-info2 img {
+ border-top-left-radius: 15px; /* Set the border radius for the left top corner */
+  border-top-right-radius: 15px; /* Set the border radius for the right top corner */
+  height: 182px;
+  width: 204px;
 }
 
 #bottom {
