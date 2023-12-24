@@ -1,11 +1,12 @@
 const itemsPerPage = 4;
-let currentPage = 1;
+let currentPage1 = 1;
+let currentPage2 = 1;
 
 function displayProjects1(data) {
   const projectList = document.getElementById('projectList');
   projectList.innerHTML = ''; // Clear existing content
 
-  const startIndex = (currentPage - 1) * itemsPerPage;
+  const startIndex = (currentPage1 - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
   const projectsToDisplay = data.slice(startIndex, endIndex);
 
@@ -33,13 +34,17 @@ function displayProjects1(data) {
     `;
     projectList.appendChild(projectItem);
   });
+
+  // Disable nextButton if there is no next page
+  const nextButton = document.getElementById('nextButton');
+  nextButton.disabled = endIndex >= data.length;
 }
 
 function displayProjects2(data) {
   const projectList = document.getElementById('projectList2');
   projectList.innerHTML = ''; // Clear existing content
 
-  const startIndex = (currentPage - 1) * itemsPerPage;
+  const startIndex = (currentPage2 - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
   const projectsToDisplay = data.slice(startIndex, endIndex);
 
@@ -67,6 +72,10 @@ function displayProjects2(data) {
     `;
     projectList.appendChild(projectItem);
   });
+
+  // Disable nextButton2 if there is no next page
+  const nextButton2 = document.getElementById('nextButton2');
+  nextButton2.disabled = endIndex >= data.length;
 }
 
 function fetchDataAndDisplay1() {
@@ -97,25 +106,25 @@ fetchDataAndDisplay2();
 
 // Example: Add event listeners for next and previous buttons
 document.getElementById('nextButton').addEventListener('click', () => {
-  currentPage++;
+  currentPage1++;
   fetchDataAndDisplay1();
 });
 
 document.getElementById('prevButton').addEventListener('click', () => {
-  if (currentPage > 1) {
-    currentPage--;
+  if (currentPage1 > 1) {
+    currentPage1--;
     fetchDataAndDisplay1();
   }
 });
 
 document.getElementById('nextButton2').addEventListener('click', () => {
-  currentPage++;
+  currentPage2++;
   fetchDataAndDisplay2();
 });
 
 document.getElementById('prevButton2').addEventListener('click', () => {
-  if (currentPage > 1) {
-    currentPage--;
+  if (currentPage2 > 1) {
+    currentPage2--;
     fetchDataAndDisplay2();
   }
 });
