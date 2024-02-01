@@ -1,17 +1,4 @@
 [
-   {
-    "name": "Github API",
-    "image": "./project-img/github.png",
-    "tech": [
-      "https://img.icons8.com/fluency/48/html-5.png",
-      "https://img.icons8.com/fluency/48/css3.png",
-      "https://img.icons8.com/fluency/48/javascript",
-      "https://img.icons8.com/fluency/48/api"
-    ],
-    "description": "This web application allows users to search for GitHub users and Git Calender",
-    "liveDemo": "https://pawansirsat.github.io/Github-Contribution-Graph-API/",
-    "githubLink": "https://github.com/PawanSirsat/Github-Contribution-Graph-API"
-  },
   {
     "name": "LeetCode Quizz",
     "image": "./project-img/leetcode.png",
@@ -21,7 +8,7 @@
       "https://img.icons8.com/fluency/48/javascript.png",
       "https://img.icons8.com/fluency/48/server.png"
     ],
-    "description": "The Coding Quiz Generator is a web application that dynamically generates coding-related quizzes.",
+    "description": "The Coding Quiz Generator is a web application that dynamically generates coding-related quizzes And Generate Results.",
     "liveDemo": "https://pawansirsat.github.io/Coding-Quizzer-BackendAsService/",
     "githubLink": "https://github.com/PawanSirsat/Coding-Quizzer-BackendAsService"
   },
@@ -34,7 +21,7 @@
       "https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/1A1A1A/external-react-social-media-tanah-basah-glyph-tanah-basah.png",
       "https://img.icons8.com/fluency/48/server.png"
     ],
-    "description": "MySocialMediaWebsite is a full-stack social media platform built with modern web technologies.",
+    "description": "MySocialMediaWebsite is a full-stack social media platform built with modern web technologies. Follow & Follow Back Feature",
     "liveDemo": "https://social-media-react-appwrite.vercel.app/",
     "githubLink": "https://github.com/PawanSirsat/Social-Media-React-Appwrite"
   },
@@ -47,8 +34,33 @@
       "https://img.icons8.com/fluency/48/javascript.png",
       "https://img.icons8.com/fluency/48/java-coffee-cup-logo--v1.png"
     ],
-    "description": "Modern E-commerce Platform: Experience seamless online shopping with Angular and Spring ",
+    "description": "Modern E-commerce Platform: Experience seamless online shopping with Angular and Spring And also CPU Building",
     "githubLink": "https://github.com/PawanSirsat/Ecommerce_Website-Angular-Spring"
+  },
+  {
+    "name": "E-learning App",
+    "image": "./project-img/byjus.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/css3.png",
+      "https://img.icons8.com/fluency/48/javascript.png",
+      "https://img.icons8.com/fluency/48/java-coffee-cup-logo--v1.png"
+    ],
+    "description": "The application has three user roles: admin, teacher, and student. allowing for easy management of Learning",
+    "githubLink": "https://github.com/PawanSirsat/ClassRoom_Management"
+  },
+  {
+    "name": "Github API",
+    "image": "./project-img/github.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/css3.png",
+      "https://img.icons8.com/fluency/48/javascript",
+      "https://img.icons8.com/fluency/48/api"
+    ],
+    "description": "This web application allows users to search for GitHub users and Git Calender",
+    "liveDemo": "https://pawansirsat.github.io/Github-Contribution-Graph-API/",
+    "githubLink": "https://github.com/PawanSirsat/Github-Contribution-Graph-API"
   },
   {
     "name": "React-Journey",
@@ -85,18 +97,6 @@
     "description": "Explore JavaScript Day by Day: This repository serves as my learning journey through JavaScript And Projects.",
     "liveDemo": "https://pawansirsat.github.io/JavaScript_Projects/",
     "githubLink": "https://github.com/PawanSirsat/JavaScript_Projects"
-  },
-  {
-    "name": "Byjus Clone",
-    "image": "./project-img/byjus.png",
-    "tech": [
-      "https://img.icons8.com/fluency/48/html-5.png",
-      "https://img.icons8.com/fluency/48/css3.png",
-      "https://img.icons8.com/fluency/48/javascript.png",
-      "https://img.icons8.com/fluency/48/java-coffee-cup-logo--v1.png"
-    ],
-    "description": "The application has three user roles: admin, teacher, and student. allowing for easy management of student and teacher information.",
-    "githubLink": "https://github.com/PawanSirsat/ClassRoom_Management"
   },
   {
     "name": "RandomUser-API",
