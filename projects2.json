@@ -1,5 +1,18 @@
 [
-   {
+  {
+    "name": "Trading Simulator",
+    "image": "./project-img/trade2.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/css3.png",
+      "https://img.icons8.com/fluency/48/javascript",
+      "https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/1A1A1A/external-react-social-media-tanah-basah-glyph-tanah-basah.png"
+    ],
+    "description": "TradingSimulator is a web-based trading simulator that allows users to practice trading in a simulated environment.",
+    "liveDemo": "",
+    "githubLink": "https://github.com/PawanSirsat/Stock-Screener-React"
+  },
+  {
     "name": "Splitwise Clone",
     "image": "./project-img/split2.png",
     "tech": [
