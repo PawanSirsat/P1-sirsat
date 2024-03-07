@@ -8,9 +8,22 @@
       "https://img.icons8.com/fluency/48/javascript",
       "https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/1A1A1A/external-react-social-media-tanah-basah-glyph-tanah-basah.png"
     ],
-    "description": "Empower retailers to manage inventory and adjust prices seamlessly with our Shop App. Easily add products and update wholesale prices for efficient wholesaler-buyer transactions.",
+    "description": "Empower retailers to manage inventory Easily add products and update wholesale prices for efficient wholesaler-buyer transactions.",
     "liveDemo": "https://balaji-traders.vercel.app/",
     "githubLink": "https://github.com/PawanSirsat/RetailShop"
+  },
+  {
+    "name": "React-Component-Library",
+    "image": "./project-img/Reactlib.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/css3.png",
+      "https://img.icons8.com/fluency/48/javascript",
+      "https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/1A1A1A/external-react-social-media-tanah-basah-glyph-tanah-basah.png"
+    ],
+    "description": "Explore React component library essentials with customizable buttons and navbar components. ",
+    "liveDemo": "",
+    "githubLink": "https://github.com/PawanSirsat/React-Component-Library"
   },
   {
     "name": "Splitwise Clone",

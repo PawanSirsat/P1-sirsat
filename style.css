@@ -2,7 +2,9 @@ body {
   font-family: monospace;
   margin: 0;
   padding: 0;
-  background-color: #14131A;
+  /* background-color: #14131A; */
+
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
   /* background-color: #8ec5fc; */
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -32,7 +34,8 @@ body {
 
 .project {
   color: black;
-  background-color: white;
+  background: linear-gradient(to bottom, #D5DEE7 0%, #E8EBF2 50%, #E2E7ED 100%), linear-gradient(to bottom, rgba(0, 0, 0, 0.02) 50%, rgba(255, 255, 255, 0.02) 61%, rgba(0, 0, 0, 0.02) 73%), linear-gradient(33deg, rgba(255, 255, 255, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
+  background-blend-mode: normal, color-burn;
   /* background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%); */
   flex: 1;
   border-radius: 15px;
@@ -298,6 +301,10 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+.social-links img {
+  filter: brightness(0) invert(1);
 }
 
 .social-links li {
