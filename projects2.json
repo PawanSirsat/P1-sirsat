@@ -1,5 +1,30 @@
 [
   {
+    "name": "Retro Gaming",
+    "image": "./project-img/retro.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/css3.png",
+      "https://img.icons8.com/fluency/48/javascript"
+    ],
+    "description": "Collection of retro video games from the 2000s era,The website features a vintage-inspired design with an old-school aesthetic",
+    "liveDemo": "https://pixel-nostalgia.vercel.app/",
+    "githubLink": "https://github.com/PawanSirsat/PixelNostalgia"
+  },
+  {
+    "name": "Splitwise Clone",
+    "image": "./project-img/split2.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/css3.png",
+      "https://img.icons8.com/fluency/48/javascript",
+      "https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/1A1A1A/external-react-social-media-tanah-basah-glyph-tanah-basah.png"
+    ],
+    "description": "SpendShare is a group expense management web app, simplifying bill splitting, settling with Simplify debts and tracking.",
+    "liveDemo": "https://split-wise-azure.vercel.app/",
+    "githubLink": "https://github.com/PawanSirsat/SplitWise"
+  },
+  {
     "name": "Retail Store",
     "image": "./project-img/shopify.jpg",
     "tech": [
@@ -24,19 +49,6 @@
     "description": "Explore React component library essentials with customizable buttons and navbar components. ",
     "liveDemo": "",
     "githubLink": "https://github.com/PawanSirsat/React-Component-Library"
-  },
-  {
-    "name": "Splitwise Clone",
-    "image": "./project-img/split2.png",
-    "tech": [
-      "https://img.icons8.com/fluency/48/html-5.png",
-      "https://img.icons8.com/fluency/48/css3.png",
-      "https://img.icons8.com/fluency/48/javascript",
-      "https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/1A1A1A/external-react-social-media-tanah-basah-glyph-tanah-basah.png"
-    ],
-    "description": "SpendShare is a group expense management web app, simplifying bill splitting and tracking.",
-    "liveDemo": "https://split-wise-azure.vercel.app/",
-    "githubLink": "https://github.com/PawanSirsat/SplitWise"
   },
   {
     "name": "Trading Simulator",
