@@ -1,17 +1,5 @@
 [
   {
-    "name": "Retro Gaming",
-    "image": "./project-img/retro.png",
-    "tech": [
-      "https://img.icons8.com/fluency/48/html-5.png",
-      "https://img.icons8.com/fluency/48/css3.png",
-      "https://img.icons8.com/fluency/48/javascript"
-    ],
-    "description": "Collection of retro video games from the 2000s era,The website features a vintage-inspired design with an old-school aesthetic",
-    "liveDemo": "https://pixel-nostalgia.vercel.app/",
-    "githubLink": "https://github.com/PawanSirsat/PixelNostalgia"
-  },
-  {
     "name": "Splitwise Clone",
     "image": "./project-img/split2.png",
     "tech": [
@@ -23,6 +11,44 @@
     "description": "SpendShare is a group expense management web app, simplifying bill splitting, settling with Simplify debts and tracking.",
     "liveDemo": "https://split-wise-azure.vercel.app/",
     "githubLink": "https://github.com/PawanSirsat/SplitWise"
+  },
+  {
+    "name": "BookMyShow Clone",
+    "image": "./project-img/bookmyshow.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/css3.png",
+      "https://img.icons8.com/fluency/48/javascript",
+      "https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/1A1A1A/external-react-social-media-tanah-basah-glyph-tanah-basah.png"
+    ],
+    "description": "A clone of BookMyShow built with features like Event search, booking management, and user authentication.",
+    "liveDemo": "https://book-my-event-nine.vercel.app/",
+    "githubLink": "https://github.com/PawanSirsat/BookMyEvent-frontend"
+  },
+  {
+    "name": "LeetCode Quizz",
+    "image": "./project-img/leetcode.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/css3.png",
+      "https://img.icons8.com/fluency/48/javascript.png",
+      "https://img.icons8.com/fluency/48/server.png"
+    ],
+    "description": "The Coding Quiz Generator is a web application that dynamically generates coding-related quizzes And Generate Results.",
+    "liveDemo": "https://pawansirsat.github.io/Coding-Quizzer-BackendAsService/",
+    "githubLink": "https://github.com/PawanSirsat/Coding-Quizzer-BackendAsService"
+  },
+  {
+    "name": "E-learning App",
+    "image": "./project-img/byjus.png",
+    "tech": [
+      "https://img.icons8.com/fluency/48/html-5.png",
+      "https://img.icons8.com/fluency/48/css3.png",
+      "https://img.icons8.com/fluency/48/javascript.png",
+      "https://img.icons8.com/fluency/48/java-coffee-cup-logo--v1.png"
+    ],
+    "description": "The application has three user roles: admin, teacher, and student. allowing for easy management of Learning",
+    "githubLink": "https://github.com/PawanSirsat/ClassRoom_Management"
   },
   {
     "name": "Retail Store",
@@ -38,29 +64,16 @@
     "githubLink": "https://github.com/PawanSirsat/RetailShop"
   },
   {
-    "name": "React-Component-Library",
-    "image": "./project-img/Reactlib.png",
+    "name": "Instagram Clone",
+    "image": "./project-img/snap.png",
     "tech": [
       "https://img.icons8.com/fluency/48/html-5.png",
       "https://img.icons8.com/fluency/48/css3.png",
-      "https://img.icons8.com/fluency/48/javascript",
-      "https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/1A1A1A/external-react-social-media-tanah-basah-glyph-tanah-basah.png"
+      "https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/1A1A1A/external-react-social-media-tanah-basah-glyph-tanah-basah.png",
+      "https://img.icons8.com/fluency/48/server.png"
     ],
-    "description": "Explore React component library essentials with customizable buttons and navbar components. ",
-    "liveDemo": "",
-    "githubLink": "https://github.com/PawanSirsat/React-Component-Library"
-  },
-  {
-    "name": "Trading Simulator",
-    "image": "./project-img/trade.jpg",
-    "tech": [
-      "https://img.icons8.com/fluency/48/html-5.png",
-      "https://img.icons8.com/fluency/48/css3.png",
-      "https://img.icons8.com/fluency/48/javascript",
-      "https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/1A1A1A/external-react-social-media-tanah-basah-glyph-tanah-basah.png"
-    ],
-    "description": "TradingSimulator is a web-based trading simulator that allows users to practice trading in a simulated environment.",
-    "liveDemo": "https://stockscreenpro.vercel.app/",
-    "githubLink": "https://github.com/PawanSirsat/Stock-Screener-React"
+    "description": "MySocialMediaWebsite is a full-stack social media platform built with modern web technologies. Follow & Follow Back Feature",
+    "liveDemo": "https://social-media-react-appwrite.vercel.app/",
+    "githubLink": "https://github.com/PawanSirsat/Social-Media-React-Appwrite"
   }
 ]

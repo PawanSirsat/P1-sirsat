@@ -1,4 +1,4 @@
-const itemsPerPage = 4
+const itemsPerPage = 12
 let currentPage1 = 1
 let currentPage2 = 1
 
